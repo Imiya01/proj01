@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>How to Convert JS Object
+      to JSON String?</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+  </script>
+</head>
+  
+<body>
+    <center>
+        <h1 style="color:green;"> 
+        GeeksForGeeks 
+    </h1>
+        <h3>How to Convert JS Object to JSON String?
+    </h3>
+        <h4>
+        ----JSON Object----<br>
+        {name: "Shubham", age: 21,
+          Intern: "Geeksoforgeeks",
+          Place:"Work from Home"}
+    </h4> ----JSON String----
+        <br>
+        <script>
+            // Sample JS object
+            var geeks = {
+                name: "Shubham",
+                age: 21,
+                Intern: "Geeksoforgeeks",
+                Place: "Work from Home"
+            };
+  
+            // Converting JS object to JSON string
+            var gfg = JSON.stringify(geeks);
+  
+            document.write(gfg);
+            /* Prints: {"name": "Shubham", "age": 21,
+            "Intern": "Geeksoforgeeks",
+            "Place":"Work from Home"}*/
+        </script>
+    </center>
+</body>
+  
+</html>
+
+
+
