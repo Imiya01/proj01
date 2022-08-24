@@ -6,7 +6,7 @@ var float =5.5;
 
 var boolean =true;
 
-var int01 = 2;
+var intOne = 2;
 
 var randomMath = Math.random()
 
