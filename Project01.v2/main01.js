@@ -2,6 +2,7 @@ let datum = document.querySelector(".datum");
 let searchbar = document.getElementById("searchbar");
 let dataStore = [];
 
+getdata();
 
 function getdata() {
     fetch( 
