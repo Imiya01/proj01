@@ -6,7 +6,7 @@ getdata();
 
 function getdata() {
     fetch( 
-    'http://api.mediastack.com/v1/news?access_key=bff3a86eb00042ed68258f5c86a6318d'
+    'https://api.mediastack.com/v1/news?access_key=bff3a86eb00042ed68258f5c86a6318d'
   )
     .then((response) => {
       const data = response.json();
